@@ -1,9 +1,24 @@
 # A-MTL
 ---
 ## Analysis scripts
-Scripts used for the analyses of the results reported in:
+
+### Description
+
+- **Scripts used for the analyses of the results reported in**
 
 [![DOI:10.1016/j.neuroimage.2019.116404](https://zenodo.org/badge/DOI/10.1016/j.neuroimage.2019.116404.svg)](https://doi.org/10.1016/j.neuroimage.2019.116404)
+
+
+- **Project information**
+
+[![DOI:10.17605/OSF.IO/DX7QP](https://zenodo.org/badge/DOI/10.17605/OSF.IO/DX7QP.svg)](https://doi.org/10.17605/OSF.IO/DX7QP)
+
+
+- **Anatomical mask MNI space**
+
+Download the mediat temporal lobe (A-MTL) mask (.nii) used for the analyses [here](https://osf.io/8j9ts/)
+
+
 ### Content
 
 `tissue_prob_ic_sel.sh` Script that helps us determine which independent component (IC) is more likely to be noise (cerebrospinal fluid, CSF or white matter, WM) than a true network (gray matter, GM) based on the volume of each tissue compartment (for Fig. 1 of the paper)
